@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নূরপুর সেন্ট্রাল জামে মসজিদ"
+            android:textColor="@color/emerald"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_detail_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="📍 সেন্ট্রাল রোড, নূরপুর, দনিয়া, যাত্রাবাড়ী, ঢাকা"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_directions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/emerald"
+            android:text="🧭 দিকনির্দেশ (Google Maps)"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="আজকের জামাতের সময়সূচী (Jama'at Schedule)"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_jamaat_fajr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="ফজর জামাত: 05:30 AM" />
+
+            <TextView
+                android:id="@+id/tv_jamaat_dhuhr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="যোহর জামাত: 01:15 PM" />
+
+            <TextView
+                android:id="@+id/tv_jamaat_asr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="আসর জামাত: 04:15 PM" />
+
+            <TextView
+                android:id="@+id/tv_jamaat_maghrib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="মাগরিব জামাত: 05:25 PM" />
+
+            <TextView
+                android:id="@+id/tv_jamaat_isha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="ইশা জামাত: 07:45 PM" />
+
+            <TextView
+                android:id="@+id/tv_jamaat_juma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="জুমু'আ জামাত: 01:30 PM" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

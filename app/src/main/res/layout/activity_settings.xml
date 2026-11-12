@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অ্যাপ সেটিংস (App Settings)"
+            android:textColor="@color/emerald"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="লোকেশন ও বেস কোঅর্ডিনেট"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_location_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:hint="স্থানের নাম (Location Name)"
+            android:padding="12dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/et_lat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:hint="অক্ষাংশ (Lat)"
+                android:inputType="numberDecimal|numberSigned"
+                android:padding="12dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_lng"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:hint="দ্রাঘিমাংশ (Lng)"
+                android:inputType="numberDecimal|numberSigned"
+                android:padding="12dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="মসজিদ সার্চ ব্যাসার্ধ (Search Radius)"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:hint="ব্যাসার্ধ (কিমি / KM)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="নামাজের ক্যালকুলেশন মেথড"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rg_calc_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rb_method_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karachi (ইসলামিক ফাউন্ডেশন BD)" />
+
+            <RadioButton
+                android:id="@+id/rb_method_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamic Society of North America (ISNA)" />
+
+            <RadioButton
+                android:id="@+id/rb_method_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muslim World League (MWL)" />
+
+            <RadioButton
+                android:id="@+id/rb_method_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umm Al-Qura University, Makkah" />
+
+            <RadioButton
+                android:id="@+id/rb_method_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egyptian General Authority of Survey" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="আজানের সুর (Azan Tone)"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rg_azan_tone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rb_tone_baitul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বায়তুল মোকাররম জাতীয় মসজিদ" />
+
+            <RadioButton
+                android:id="@+id/rb_tone_makkah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মসজিদুল হারাম, মক্কার আজান" />
+
+            <RadioButton
+                android:id="@+id/rb_tone_madinah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মসজিদে নববী, মদিনার আজান" />
+
+            <RadioButton
+                android:id="@+id/rb_tone_alaqsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বায়তুল মুকাদ্দাস / আল-আকসা" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_save_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="14dp"
+            android:text="সংরক্ষণ করুন (Save Changes)"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

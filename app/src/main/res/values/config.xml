@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_base_lat">23.693639</string>
+    <string name="config_base_lng">90.450333</string>
+    <string name="config_base_location_name">যাত্রাবাড়ী/দনিয়া, ঢাকা</string>
+    <string name="config_mosque_search_radius_km">1.0</string>
+    <integer name="config_prayer_calc_method">1</integer>
+    <string name="config_prayer_api_base_url">https://api.aladhan.com/v1</string>
+    <string name="config_osm_nominatim_api_url">https://nominatim.openstreetmap.org/search</string>
+</resources>

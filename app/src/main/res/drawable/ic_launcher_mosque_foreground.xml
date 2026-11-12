@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Mosque Main Dome -->
+    <path
+        android:fillColor="#D6B66D"
+        android:pathData="M54,28 C42,28 34,42 34,58 L74,58 C74,42 66,28 54,28 Z" />
+
+    <!-- Crescent Moon on Top of Dome -->
+    <path
+        android:fillColor="#F7F5EE"
+        android:pathData="M54,16 C57,16 59.5,18.5 59.5,21.5 C59.5,24.5 57,27 54,27 C52,27 50.2,25.8 49.3,24 C51.5,24 53.3,22.2 53.3,20 C53.3,18.2 52.1,16.7 50.5,16.2 C51.6,16.1 52.8,16 54,16 Z" />
+
+    <!-- Dome Finial Base -->
+    <path
+        android:fillColor="#D6B66D"
+        android:pathData="M53,24 L55,24 L55,28 L53,28 Z" />
+
+    <!-- Left Minaret -->
+    <path
+        android:fillColor="#D6B66D"
+        android:pathData="M22,38 L28,38 L28,78 L22,78 Z M20,34 L30,34 L25,24 Z" />
+
+    <!-- Right Minaret -->
+    <path
+        android:fillColor="#D6B66D"
+        android:pathData="M80,38 L86,38 L86,78 L80,78 Z M78,34 L88,34 L83,24 Z" />
+
+    <!-- Mosque Entrance Archway -->
+    <path
+        android:fillColor="#075B45"
+        android:pathData="M46,78 L46,64 C46,59.5 49.5,56 54,56 C58.5,56 62,59.5 62,64 L62,78 Z" />
+
+    <!-- Base Platform -->
+    <path
+        android:fillColor="#D6B66D"
+        android:pathData="M18,78 L90,78 L90,84 L18,84 Z" />
+
+</vector>
