@@ -77,16 +77,21 @@ public class HomeFragment extends Fragment {
         });
 
         view.findViewById(R.id.btn_action_settings).setOnClickListener(v -> {
-            startActivity(new Intent(requireContext(), SettingsActivity.class));
+            showAlarmBottomSheet();
         });
 
         if (btnSettings != null) {
-            btnSettings.setOnClickListener(v -> startActivity(new Intent(requireContext(), SettingsActivity.class)));
+            btnSettings.setOnClickListener(v -> showAlarmBottomSheet());
         }
 
         updateUIConfig();
         loadPrayerTimings();
         startRealTimeTicker();
+    }
+
+    private void showAlarmBottomSheet() {
+        AlarmBottomSheetDialogFragment sheet = new AlarmBottomSheetDialogFragment();
+        sheet.show(getChildFragmentManager(), "AlarmBottomSheetDialogFragment");
     }
 
     @Override

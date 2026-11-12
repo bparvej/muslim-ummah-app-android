@@ -1,0 +1,17 @@
+package com.example.muslimummah.ui;
+
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.muslimummah.R;
+
+public class RestrictedTimesActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_restricted_times);
+    }
+}

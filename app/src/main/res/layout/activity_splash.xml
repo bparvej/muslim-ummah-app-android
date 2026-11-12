@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/emerald"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="Muslim Ummah Logo"
+        android:src="@drawable/ic_launcher_mosque_foreground" />
+
+    <TextView
+        android:id="@+id/tv_splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Muslim Ummah"
+        android:textColor="@color/gold"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_splash_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="আপনার দৈনন্দিন মুসলিম সঙ্গী"
+        android:textColor="#EEFFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
