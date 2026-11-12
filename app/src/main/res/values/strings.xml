@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Muslim Ummah</string>
+    <string name="settings_title">Settings</string>
+    <string name="base_lat">Base Latitude</string>
+    <string name="base_lng">Base Longitude</string>
+    <string name="base_location_name">Base Location Name</string>
+    <string name="search_radius">Mosque Search Radius (km)</string>
+    <string name="calculation_method">Prayer Calculation Method</string>
+    <string name="selected_azan_tone">Selected Azan Tone</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="settings_saved">Settings saved successfully!</string>
+</resources>

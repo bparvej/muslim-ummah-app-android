@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emerald">#075B45</color>
+    <color name="gold">#D6B66D</color>
+    <color name="ivory">#F7F5EE</color>
+    <color name="text_primary">#24312D</color>
+    <color name="text_secondary">#68736D</color>
+    <color name="red_alert">#D93838</color>
+</resources>

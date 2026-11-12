@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MuslimUmmah" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/emerald</item>
+        <item name="colorPrimaryDark">@color/emerald</item>
+        <item name="colorAccent">@color/gold</item>
+        <item name="android:statusBarColor">@color/emerald</item>
+    </style>
+</resources>
